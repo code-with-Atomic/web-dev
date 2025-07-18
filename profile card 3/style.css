@@ -1,0 +1,63 @@
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+    max-width: 400px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(19, 10, 10);
+    color: rgb(226, 207, 207);
+    margin: 20px;
+
+}
+.position{
+    color:gba(0, 0, 0);
+    font-size: 20px;
+     
+}
+
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+    max-width: 400px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(73, 68, 68);
+    color: rgb(163, 153, 153);
+}
+.position2{
+    color: rgba(0, 0, 0);
+    font-size: 20px;
+}
+
+button{
+    background-color:rgb(85, 85, 150);
+    color: rgb(161, 99, 99);
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+
+}
+img{
+    border-radius: 10px;
+}
+button.hover{
+    opacity: 0.8;
+}
+div.container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    overflow: auto;
+    align-items: center;
+    
+}
+div.containe div{
+    float: left;
+    margin: auto;
+    align-content: space-around;
+}
