@@ -1,0 +1,49 @@
+body{
+  background-color:rgb(65, 65, 95);
+}
+#vin{
+  color: rgb(214, 214, 231);
+}
+
+  .card {
+    width: 290px;
+    height: 490px;
+    border-radius: 3rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    backface-visibility: hidden;
+    z-index: 1;
+  }
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 1rem 1rem 1rem;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    color: white;
+    z-index: 2;
+  }
+  
+  button {
+    padding: 11px 0px;
+  }
+  
+  .glow-button {
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
+      0 0 20px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4),
+      0 0 25px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.6);
+  }
